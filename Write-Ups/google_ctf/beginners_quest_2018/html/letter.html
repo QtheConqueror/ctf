@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Beginners Quest: Letter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+    <link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+    <style>
+        .task-list-item {
+            list-style-type: none;
+        }
+
+        .task-list-item-checkbox {
+            margin-left: -20px;
+            vertical-align: middle;
+        }
+    </style>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'HelveticaNeue-Light', 'Ubuntu', 'Droid Sans', sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+</head>
+
+<body>
+    <h1 id="beginners-quest-letter">Beginners Quest: Letter</h1>
+    <h3 id="garbo-can">Garbo-can</h3>
+    <p><a href=""></a></p>
+    <table align="right">
+        <thead>
+            <th colspan="2">
+                <h3 align="center">
+                    Properties </h3>
+            </th>
+        </thead>
+        <tbody>
+            <p>
+                <tr>
+                    <td>
+                        <p>
+                            <strong>Author</strong> </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href=":ctf:archive:filter=author#google">Google</a> </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <strong>Tags</strong> </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href=":ctf:archive:filter=tags#misc">misc</a> </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <strong>Year</strong> </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href=":ctf:archive:filter=year#2018">2018</a> </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <strong>Difficulty</strong> </p>
+                    </td>
+                    <td>
+                        <p>
+                            Easy </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <strong>Attachment</strong> </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="https://storage.googleapis.com/gctf-2018-attachments/5a0fad5699f75dee39434cc26587411b948e0574a545ef4157e5bf4700e9d62a">Download</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <strong>Point Value</strong> </p>
+                    </td>
+                    <td>
+                        <p>
+                            Null </p>
+                    </td>
+                </tr>
+            </p>
+        </tbody>
+    </table>
+    <h2 id="description">Description</h2>
+    <p>You really went dumpster diving? Amazing. After many hours, SUCCESS! Between what looks like a three week old
+        casserole and a copy of &quot;Relative-Time Magazine&quot;, you found this important looking letter about the
+        victims PC. However the credentials aren't readable - can you still obtain them?</p>
+    <p><a href=""></a></p>
+    <table align="left">
+        <thead>
+            <th>
+                <h3 align="center">
+                    Table of Contents </h3>
+            </th>
+        </thead>
+        <tbody>
+            <p>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                <a href="#description">Description</a> </li>
+                            <li>
+                                <a href="#write-up">Write-Up</a> </li>
+                            <ul>
+                                <li>
+                                    <a href="#download">Download</a> </li>
+                                <li>
+                                    <a href="#new-directory">New Directory</a> </li>
+                                <li>
+                                    <a href="#unzip">Unzip</a> </li>
+                                <li>
+                                    <a href="#open-pdf">Open .pdf</a> </li>
+                                <li>
+                                    <a href="#grab-credentials">Grab Credentials</a> </li>
+                                <li>
+                                    <a href="#victory">Victory</a> </li>
+                                <li>
+                                    <a href="#tips">Tips</a> </li>
+                            </ul>
+                            <li>
+                                <a href="#solution">Solution</a> </li>
+                            <ul>
+                                <li>
+                                    <a href="#flag">Flag</a> </li>
+                            </ul>
+                            <li>
+                                <a href="#notes">Notes</a> </li>
+                            <li>
+                                <a href="#references">References</a> </li>
+                            <li>
+                                <a href="#external-links">External Links</a> </li>
+                        </ul>
+                    </td>
+                </tr>
+            </p>
+        </tbody>
+    </table>
+    <h2 id="write-up">Write-Up</h2>
+    <blockquote>
+        <p><strong>Click <a href="#solution">HERE</a> for bare-bones solution with no explanations.</strong></p>
+    </blockquote>
+    <h4 id="download">Download</h4>
+    <p>In the challenge description it says we'll be dealing with a document with text that has been obscured in some
+        way. Lets download the file attached to the challenge.</p>
+    <h4 id="new-directory">New Directory</h4>
+    <p>Upon downloading we see that it is a .zip file. First things first lets put the file in a new directory so that
+        we can keep track of what comes out of it.</p>
+    <h4 id="unzip">Unzip</h4>
+    <p>Next lets unzip the file. You can do this by running: <code>unzip &quot;file&quot;.zip</code> or by running
+        <code>unzip *.zip</code> while in the directory the file is in. <strong>Be careful though running <code>unzip
+                *.zip</code> will unzip all files in the directory the command is run in.</strong> If you don't have
+        unzip installed you can install by running <code>sudo apt-get install unzip</code>.</p>
+    <h4 id="open-pdf">Open .pdf</h4>
+    <p>Now that we have unzipped the file we have downloaded we see that there was a .pdf document inside. Go ahead and
+        open the file with whatever default deals with .pdf files on your computer. If you don't have a program for
+        .pdf files web browsers like Google Chrome<sup><a href="#references">1</a></sup> or Firefox<sup><a href="#references">2</a></sup>
+        can open the file.</p>
+    <h4 id="grab-credentials">Grab Credentials</h4>
+    <p>On looking at the pdf we see what the challenge description mentioned. The two fields &quot;Username&quot; and
+        &quot;Password&quot; are unreadable because they have been blacked out.
+        Go ahead and select and copy the fields and paste them into your favorite text editor (pasting them into the
+        browsers search bar works as well). After pasting the fields we see that we have the text the was obscured.
+        This works because the pdf document only visually blocks the text but doesn't remove it, so we still can select
+        it.</p>
+    <h4 id="victory">Victory</h4>
+    <p>Looking at the pasted text we see that the &quot;Username&quot; field had no useful information, but the
+        &quot;Password&quot; field has exactly what we are looking for. Now go submit the flag and claim your first
+        victory!</p>
+    <blockquote>
+        <p><strong>Click <a href="#solution">HERE</a> for bare-bones solution with no explanations.</strong></p>
+    </blockquote>
+    <h3 id="tips">Tips</h3>
+    <ul>
+        <li>Create a new directory for your CTF files to keep them organized.</li>
+        <li>When submitting a don't forget to send THIS{___} with it.</li>
+    </ul>
+    <h2 id="solution">Solution</h2>
+    <ol>
+        <li>Download Attachment</li>
+        <li>Unzip .zip file <code>unzip &quot;file&quot;.zip</code></li>
+        <li>Open &quot;challenge.pdf&quot;</li>
+        <li>Copy blacked-out flag text in &quot;Password&quot; field</li>
+        <li>Submit flag</li>
+    </ol>
+    <h3 id="flag">Flag</h3>
+    <details>
+        <summary>Spoiler!</summary>
+        <p><code>CTF{ICanReadDis}</code></p>
+    </details>
+    <h2 id="notes">Notes</h2>
+    <ul>
+        <li>This is the first challenge of <a href=":ctf:2018:google-ctf">Google CTF 2018</a><sup><a href="#references">3</a></sup>
+            <a href=":ctf:2018:google-ctf:beginner-ctf">Beginners Quest</a><sup><a href="#references">4</a></sup></li>
+    </ul>
+    <h2 id="references">References</h2>
+    <ol>
+        <li><sup><a href="#open-pdf">^</a></sup> <a href="https://www.google.com/chrome/">&quot;Google Chrome Web
+                Browser&quot;</a>. <em><a href="http://google.com">google.com</a></em>. Google, Inc. 2019.</li>
+        <li><sup><a href="#open-pdf">^</a></sup> <a href="https://www.mozilla.org/en-US/firefox/new/">&quot;Firefox&quot;</a>.
+            <em><a href="http://mozilla.org">mozilla.org</a></em>. Mozilla Foundation. 2019.</li>
+        <li><sup><a href="#notes">^</a></sup> <a href="https://capturetheflag.withgoogle.com/">&quot;Google CTF&quot;</a>.
+            Google, Inc. 2018.</li>
+        <li><sup><a href="#notes">^</a></sup> <a href="https://capturetheflag.withgoogle.com/#beginners/">&quot;Google
+                CTF Beginners Quest&quot;</a>. Google, Inc. 2018.</li>
+    </ol>
+    <h2 id="external-links">External Links</h2>
+    <ul>
+        <li><a href="https://capturetheflag.withgoogle.com/">Google CTF</a></li>
+        <li><a href="https://capturetheflag.withgoogle.com/#beginners/misc-letter">Google CTF Beginner Quest: Letter</a></li>
+        <li><a href="https://www.google.com/intl/en/about/">About Google</a></li>
+    </ul>
+
+</body>
+
+</html>
