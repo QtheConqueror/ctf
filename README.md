@@ -6,8 +6,8 @@ This is a repo for all my ctf related files.
 
   - <details><summary>2018</summary>
     
-    - [Challenges](/write-ups/google_ctf/2018/challenges/README.md) (Unfinished!)
-    - [Beginners Quest](/write-ups/google_ctf/2018/beginners_quest/README.md)
+    - [Challenges](/write-ups/google-ctf/2018/challenges/README.md) (Unfinished!)
+    - [Beginners Quest](/write-ups/google-ctf/2018/beginners-quest/README.md)
     </details>
 </details>
 
