@@ -10,3 +10,8 @@ This is a repo for all my ctf related files.
     - [Beginners Quest](/write-ups/google_ctf/2018/beginners_quest/README.md)
     </details>
 </details>
+
+## Templates
+For writing new Write-Ups
+- [template.md](/templates/template.md)
+- [template+html.md](/templates/template+html.md)

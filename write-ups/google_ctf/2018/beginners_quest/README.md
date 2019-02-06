@@ -2,5 +2,5 @@
 ## Description
 This is a list of challenges from Google CTF made for beginners.
 ## Write-Ups
-- [Letter](md/letter)
-- [Moar](md/moar) (Unfinished!)
+- [Letter](md/letter.md)
+- [Moar](md/moar.md) (Unfinished!)
